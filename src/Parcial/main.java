@@ -24,9 +24,9 @@ public class main {
         }
         System.out.println(r1);
 
-        //Habitaciones h6 = new Estandar("Habitacion 108", 150_000, -2);
-        //Habitaciones h7 = new Suit("Suit 409", -50_000, 3,15);
-
+        Habitaciones h6 = new Estandar("Habitacion 108", 150_000, -2);
+        Habitaciones h7 = new Suit("Suit 409", -50_000, 3,15);
+//para correr el codigo hay que comentar esas dos habiyaciones ya que tienen valores ingresados no validos
         Reservas r2 = new Reservas();
         try{
             Habitaciones h8 = new Estandar("Habitacion 203", 120_000, 1);
